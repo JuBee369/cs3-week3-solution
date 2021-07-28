@@ -1,0 +1,30 @@
+/*
+
+to use:
+font-family: 'oxygen', serif;
+font-family: 'Lora', serif;
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 850px;
+}
+
+header{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: beige;
+}
+
+.art{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+}

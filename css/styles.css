@@ -72,8 +72,7 @@ body{
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 .lnk{
-    /* box-sizing: border-box;
-    padding: 10px; */
+    padding-top: 36px;
 }
 
 .lnk-img{
@@ -85,7 +84,8 @@ body{
     font-size: 0.4em;
     text-align: center;
     color: antiquewhite;
-    
+    position: relative;
+    top: -34px;
 }
 
 .art{

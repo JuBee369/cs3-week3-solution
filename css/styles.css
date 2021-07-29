@@ -34,13 +34,13 @@ body{
     background: url('../img/restaurant-logo02.png') no-repeat;
     background-size: 100%;
     border-radius: 5px;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 120px;
     margin: 10px 15px 10px 0;
 }
 
 .navbar-brand{
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 #header-img{
@@ -70,6 +70,7 @@ body{
     width: 25%;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-left: 10%;
 }
 .lnk{
     padding-top: 36px;
@@ -106,6 +107,10 @@ body{
     }
     #header-txt{
 
+    }
+
+    .navbar-brand{
+        margin-left: 10%;
     }
 
     .lnks{

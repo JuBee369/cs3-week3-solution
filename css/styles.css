@@ -26,7 +26,7 @@ body{
 }
 
 .navbar-header{
-    display: flex;
+    /* display: flex; */
 }
 
 #logo-img{
@@ -96,9 +96,9 @@ body{
     /* height: 800px; */
 }
 
-@media screen and (min-width: 992px){
+/* @media screen and (min-width: 992px){
     
-}
+} */
 
 @media (min-width:768px) and (max-width:991px){
     #header-img{
@@ -107,8 +107,28 @@ body{
     #header-txt{
 
     }
+
+    .lnks{
+        width: 60%;
+        text-align-last: center;
+        /* margin: auto; */margin-left: 39%;
+    }
+
+    .lnk{
+        padding-top: 0px;
+    }
+
+    .lnk-title{
+        top: 0px;
+    }
+
+    .lnk-img{
+        width: 20%;
+    }
 }
 
 @media screen and (max-width:767px){
+
+
     
 }

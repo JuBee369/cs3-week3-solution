@@ -10,8 +10,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -27,39 +31,58 @@
                     
                     <div class="navbar-brand headerprt">
                             <img id="header-img" src="./img/Restaurant-header.png" alt="HeaDer ImaGe">
-                            <a href="index.html" class ="lnk">
+                            <a href="index.html" class ="nav-lnk">
                                 <h1 id="header-txt">Malabari Restaurant</h1>
                             </a>
                     </div>
-                    <button class="navbar-toggler nav-lnks" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  <!--nav-chg-->
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler collapsed nav-butt nav-lnks " type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">  <!--nav-chg-->
+                        <span class="navbar-toggler-icon sr-only">click</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
 
-                    <div class=" collapse navbar-collapse nav-lnks" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto lnks">
-                            <li class="nav-item active ">
-                                <img class="lnk-img mobile " src="./img/home.png" href="index.html" alt="HoMe ImaGe">
-                                <a class="nav-link disabled " href="index.html">
+                    <div class=" collapse navbar-collapse nav-lnks" id="collapsable-nav">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right  lnks"> <!-- tuto included:  -->
+                            <li class="nav-item active">
+                                <a class=" disabled " href="index.html">
+                                    <img class="lnk-img mobile " src="./img/home.png" href="index.html" alt="HoMe ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-home"></span> -->
+                                    <br class="hidden-xs">
                                     <span class="lnk-title">Home </span>
                                 </a>
                             </li>
                             <li class="nav-item ">
-                                <img class="lnk-img mobile " src="./img/menu.png" href="menu.html" alt="MeNu ImaGe">
-                                <a class="nav-link " href="menu.html">
+                                <a class=" " href="menu.html">
+                                    <img class="lnk-img mobile " src="./img/menu.png" href="menu.html" alt="MeNu ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-cutlery"></span> -->
+                                    <br class="hidden-xs">
                                     <span class="lnk-title">Menu</span>
                                 </a>
                             </li>
                             <li class="nav-item ">
-                                <img class="lnk-img mobile " src="./img/about03.png" href="about.html" alt="About ImaGe">
-                                <a class="nav-link " href="about.html">
+                                <a class=" " href="about.html">
+                                    <img class="lnk-img mobile " src="./img/about03.png" href="about.html" alt="About ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-info-sign"></span> -->
+                                    <br class="hidden-xs">
                                     <span class="lnk-title">About</span>
                                 </a>
                             </li>
                             <li class="nav-item ">
-                                <img class="lnk-img mobile " src="./img/award02.png" href="award.html" alt="Award ImaGe">
-                                <a class="nav-link " href="award.html">
+                                <a class=" " href="award.html">
+                                    <img class="lnk-img mobile " src="./img/award02.png" href="award.html" alt="Award ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-certificate"></span> -->
+                                    <br class="hidden-xs">
                                     <span class="lnk-title">Award</span>
                                 </a>
+                            </li>
+                            <li id="phone" class="nav-item hidden-xs">
+                                <!-- <img class="lnk-img mobile " src="./img/award02.png" href="award.html" alt="Award ImaGe"> -->
+                                <a class=" " href="tel:+919496808652">
+                                    <span class="lnk-title">+919496808652</span><br class="hidden-xs">
+                                </a>
+                               <div class="lnk-title">* We Deliver</div>
                             </li>
                         </ul>
                     </div>
@@ -70,8 +93,7 @@
         <article class="art">
 
         </article>
-        <script src="js/jquery-3.6.0.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script> 
+        <!-- <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
     </body>
 </html>

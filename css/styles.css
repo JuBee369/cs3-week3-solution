@@ -13,7 +13,7 @@ body{
 }
 
 /*All links..,.*/
-.lnk{
+.nav-lnk{
     text-decoration: none;
 }
 
@@ -25,6 +25,8 @@ body{
 
 .navbar-header{
     display: flex;
+    width: 100%;
+    height: 155px;
 }
 
 #logo-img{
@@ -43,6 +45,10 @@ body{
     width: 46%;
 }
 
+.headerprt{
+    width: 50%;
+}
+
 #header-txt{
     font-family: 'Lora';
     font-size: 2.5em;
@@ -52,21 +58,64 @@ body{
     line-height: 49%;
 }
 
+.nav-butt{
+    width: 10%;
+    height: 50px;
+}
+
+
+.nav-lnks{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
 .lnks{
-    margin-left: 12%;
-    width: 71%;
+    width: 110%;
+}
+
+.nav-item{
+    width: 14%;
+}
+
+.active{
+    opacity:0.52;
+    background: #2a2b3c;
+}
+
+.nav-item>a{
+    text-align: center;
 }
 
 .lnk-img{
-    width: 48%;
+    width: 81%;
 }
 
 .lnk-title{
     font-family: cursive;
-    text-align: center;
-    color: antiquewhite;
-    position: relative;
-    top: -2px;
+    color: #951C49;
+}
+
+.lnk-title:hover{
+    font-family: fantasy;
+    color: #4d3737;
+}
+
+#phone{
+    padding-top: 15px;
+    width: 35%;
+    font-size: 1.4em;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
 }
 
 .art{
@@ -77,7 +126,12 @@ body{
 
 @media screen and (min-width: 992px){
     .headerprt{
-        margin-left: 12%;
+        /* margin-left: 12%; */
+    }
+
+    .nav-butt{
+        display: none !important;
+        visibility: hidden !important;
     }
 
     .nav-lnks{
@@ -92,14 +146,32 @@ body{
         visibility: hidden !important;
     }
 
-    .headerprt{
-        margin-left: 10%;
+    .navbar-header{
+        height: 235px;
     }
 
     .nav-lnks{
         position: absolute;
-        right: 0;
+        top: 135px;
+        right: 21%;
     }
+
+    .headerprt{
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+
+    .nav-butt{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    /* #nav-list{
+        display: none !important;
+        visibility: hidden !important;
+    } */
+
+    
 }
 
 @media screen and (max-width:767px){
@@ -107,6 +179,10 @@ body{
     .mobile {
         display: none !important;
         visibility: hidden !important;
+    }
+
+    .headerprt{
+        width: 80%;
     }
 
     #header-txt{

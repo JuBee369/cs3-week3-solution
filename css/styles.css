@@ -46,7 +46,7 @@ body{
 
 #header-txt{
     font-family: 'Lora';
-    font-size: 2.5em;
+    font-size: 2.5vw;     /* 1vw = 1% of viewport width      */
     color: #557c3e;
     text-shadow: 1px 1px 1px #222;
     margin-top: -5%;
@@ -114,8 +114,9 @@ body{
     padding-right: 15px;
 }
 
-.navbar button.navbar-toggle, .navbar .icn-bar{
+.navbar button.navbar-toggle{
     border: 1px solid #61122f;
+    clear: both;
 }
 
 .icn-bar{
@@ -130,7 +131,30 @@ body{
     width: 100%;
 }
 
-@media screen and (min-width: 992px){
+/*View changes  for Large devices*/
+@media (min-width: 1200px){
+
+    #header-nav{
+        height: 182px;
+    }
+    
+    #logo-img{
+        width: 160px;
+        height: 170px;
+    }
+    
+    .nav-butt{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .nav-lnks{
+        width: 35%;
+    }
+}
+
+/*View changes  for desktop devices*/
+@media (min-width: 992px) and (max-width:1199px){
     .headerprt{
         /* margin-left: 12%; */
     }
@@ -145,6 +169,7 @@ body{
     }
 }
 
+/*View changes  for Tablet devices*/
 @media (min-width:768px) and (max-width:991px){
     
     .mobile {
@@ -180,6 +205,7 @@ body{
     
 }
 
+/*View changes  for mobile devices*/
 @media screen and (max-width:767px){
     /* .navbar-toggle .icon-bar {
         background-color: #fff;

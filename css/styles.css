@@ -131,6 +131,10 @@ body{
     font-size: 2.5em;
 }
 
+#main-content{
+    color:wheat
+}
+
 .jumbo{
     box-sizing: border-box;
     margin: auto;

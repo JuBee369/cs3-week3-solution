@@ -25,11 +25,11 @@ body{
 }
 
 #logo-img{
-    background: url('../img/restaurant-logo02.png') no-repeat;
+    background: url('../img/res-logo.png') no-repeat;
     background-size: 100%;
-    border-radius: 5px;
-    width: 110px;
+    width: 206px;
     height: 120px;
+    border-radius: 13px;
     margin: 10px 15px 10px 0;
 }
 
@@ -45,9 +45,11 @@ body{
 }
 
 #header-txt{
-    font-family: 'Lora';
-    font-size: 2.5vw;     /* 1vw = 1% of viewport width      */
-    color: #557c3e;
+ /* font-family: 'Lora';
+    color: #557c3e; */
+    font-family: 'Abril Fatface',serif;
+    color: #5f9bce;
+    font-size: 4.5vw;     /* 1vw = 1% of viewport width      */
     text-shadow: 1px 1px 1px #222;
     margin-top: -5%;
     line-height: 49%;
@@ -216,8 +218,9 @@ body{
     }
     
     #logo-img{
-        width: 160px;
+        width: 206px;
         height: 170px;
+        margin-top: 24px;
     }
     
     .nav-butt{
@@ -270,7 +273,7 @@ body{
 
     .nav-lnks{
         position: absolute;
-        top: 135px;
+        top: 150px;
         right: 21%;
     }
 
@@ -279,6 +282,9 @@ body{
         width: 80%;
     }
     
+    #header-txt{
+        font-size: 5.5vw;     /* 1vw = 1% of viewport width      */
+    }
 
     .nav-butt{
         display: none !important;
@@ -315,7 +321,7 @@ body{
     }
 
     #header-txt{
-        font-size: 1.8em;
+        font-size: 2.8em;
         text-align: center;
     }
 

@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -43,7 +43,7 @@
 
                     <div class=" collapse navbar-collapse nav-lnks" id="collapsable-nav">
                         <ul id="nav-list" class="nav navbar-nav ms-auto  lnks"> <!-- tuto included:  -->
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link disabled " href="index.html">
                                     <img class="lnk-img mobile " src="./img/home.png" href="index.html" alt="HoMe ImaGe">
                                     <!-- <span class="glyphicon glyphicon-home"></span> -->
@@ -51,7 +51,7 @@
                                     <span class="lnk-title">Home </span>
                                 </a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item active">
                                 <a class="nav-link " href="menu.html">
                                     <img class="lnk-img mobile " src="./img/menu.png" href="menu.html" alt="MeNu ImaGe">
                                     <!-- <span class="glyphicon glyphicon-cutlery"></span> -->
@@ -89,126 +89,95 @@
         </header>
 
         <div id="main-content" class="container">
-    	    <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
-    	    <div class="text-center">Lunch is not served until after 1pm.</div>
+    	    <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
+      	    <div class="text-center">
+      	    	Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
+    	    </div>
 
-    	    <section class="row">
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          		<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              			<div>D01</div>
-              			<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          		</div>
-
-          		<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          		</div>
-        	    </div>
-        	    <hr class="visible-xs">
+      	    <section class="row">
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
       		</div>
 
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          		<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              		    	<div>D02</div>
-              		    	<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          	    	</div>
-          	    	<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          		</div>
-        	    </div>
-        	    <hr class="visible-xs">
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
       		</div>
 
-      		<!-- Add after every 2nd menu-item-tile -->
-      		<div class="clearfix visible-lg-block visible-md-block"></div>
-
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          		<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              			<div>D03</div>
-              			<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          	    	</div>
-          	    	<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          	    	</div>
-        	    </div>
-        	    <hr class="visible-xs">
-      	    	</div>
-
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          	   	<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              		    	<div>D04</div>
-              			<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          		</div>
-          		<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          		</div>
-        	    </div>
-        	    <hr class="visible-xs">
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
       		</div>
 
-      		<!-- Add after every 2nd menu-item-tile -->
-      		<div class="clearfix visible-lg-block visible-md-block"></div>
-
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          		<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              			<div>D05</div>
-              			<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          		</div>
-          		<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          		</div>
-        	    </div>
-        	    <hr class="visible-xs">
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
       		</div>
 
-      		<div class="menu-item-tile col-md-6">
-        	    <div class="row">
-          		<div class="col-sm-5">
-            		    <div class="menu-item-photo">
-              			<div>D06</div>
-              			<img class="img-responsive" width="250" height="150" src="img/menu/B/B-1.jpg" alt="Item">
-            		    </div>
-            		    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-          		</div>
-          		<div class="menu-item-description col-sm-7">
-            		    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-            		    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-          		</div>
-        	    </div>
-           	    <hr class="visible-xs">
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
       		</div>
 
-      		<!-- Add after every 2nd menu-item-tile -->
-      		<div class="clearfix visible-lg-block visible-md-block"></div>
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
+      		</div>
 
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
+      		</div>
+
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
+      		</div>
+
+      		<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        		<a href="single-category.html">
+          			<div class="category-tile">
+            				<img width="200" height="200" src="img/menu/B/B.jpg" alt="Lunch">
+            				<span>Lunch</span>
+          			</div>
+        		</a>
+      		</div>
     	    </section>
 
   	</div><!-- End of #main-content -->
-
 
         <footer class="panel-footer">
     	    <div class="container">

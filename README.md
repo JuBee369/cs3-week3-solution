@@ -6,6 +6,6 @@
     </head>
     <body>        
         <h1>cs3-week3-solution</h1>
-        <strong>Hosted Link:</strong><a href="https://jubee369.github.io/cs3-week3-solution/index.html" style="font-size: 2em;, font-weight: 800;,font-family: 'Abril Fatface',serif;">Hotel RahMaTh</a>
+        <strong>Hosted Link:</strong><a href="https://jubee369.github.io/cs3-week3-solution/index.html" target="_blank" style="font-size: 2em;, font-weight: 800;,font-family: 'Abril Fatface',serif;">Hotel RahMaTh</a>
     </body>
 </html>

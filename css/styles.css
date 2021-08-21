@@ -463,6 +463,22 @@ h3.menu-item-title {
     }
     /* End Footer */
 
+    
+    .container .jumbotron {
+    	margin-top: 30px;
+    }
+    
+
+    .menu-item-photo {
+    	margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+   	text-align: center;
+    }
+    .menu-item-description {
+    	text-align: center;;
+    }
+
 }
 
 
